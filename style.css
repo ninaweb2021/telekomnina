@@ -359,9 +359,8 @@ a {
 }
 
 #div5gbox img {
-	display: block;
-	margin-left: 0px;
-	margin-right: 10px;
+	max-width: 100%;
+	height: auto;
 }
 
 #div5gtext {
