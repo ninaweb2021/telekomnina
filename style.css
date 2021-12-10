@@ -1,0 +1,538 @@
+#sidebar {float: :right; position: fixed; right: 15px; bottom: 100px; z-index: 10;}
+#sidebar li {list-style: none; }
+#sidebar li img {height: 48px;}
+
+
+
+
+
+
+*{font-family: Arial; }
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+	background: #f7f8f9;
+}
+
+.wrapper {
+    width: 1300px;
+    height:188px;
+    margin: 0px auto;
+    clear: both;
+    height: auto;
+
+}
+
+.wrapperNarrow {
+	width: 350px;
+	height:188px;
+	margin: 0px auto;
+	clear: both;
+	height: auto;
+	margin-bottom: 100px;
+    }
+
+
+
+/* Author */
+
+
+
+
+
+/* Center */
+
+
+#greendiv {
+	float:left; 
+	margin-top:150px;
+	padding-right: 2px;
+	height: 136px;
+	width: 500px;
+	display: inline;
+}
+#greendiv h1 {
+	color: white;
+	font-size: 48px;
+	margin: 11px 30px 11px 30px;
+}
+#greendiv span {color:yellow;}
+
+#center {
+	background-image: -webkit-radial-gradient(71% 51%,circle,#5ce1ff,#388dff 57%);
+    	background-position: 50% 50%;
+	height: 90vh;}
+
+#welcome {
+	width: 600px;
+	height: 140px;
+	background-color: #00c96a;
+	margin-top: 88px;
+	float: left;
+}
+.clear {clear: both;}
+
+/* Gallery */
+
+#images {
+    width: 750px;
+    margin: 15px auto;
+    border: 1px solid #E0E7F1;
+    padding: 30px 5px;
+ }
+#images a img{
+	border: 0;
+}
+#gallery {
+	text-align: center;
+}
+a.block:link, a.block:visited {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #11b463;
+    margin: 10px;
+    background-color: transparent;
+}
+#images a {
+ transition: all .2s ease-in-out; }
+
+#images a:hover { transform: scale(1.1); }
+
+/* Login */
+#center .logspace {
+	width:290px;
+	height: 310px;
+	border-radius: 3px;
+
+	 -moz-border-right-radius: 3px;
+     -webkit-border-right-radius: 3px;
+     border-right-radius: 3px;
+     -moz-border-left-radius: 3px;
+     -webkit-border-left-radius: 3px;
+     border-left-radius: 3px;
+
+	background: #f7f8fa;
+	float: right;
+	margin-top: 35px;
+	margin-right: 25px;
+	padding: 20px 0px 0px 30px;
+	color: #3e434a;
+
+}
+.logbox {
+	height: 308px;
+	width: 286px;
+}
+.logtitle {
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	margin-bottom: 19px;
+}
+.logtext {
+	width: 250px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.logtext #logemail, #passw {
+	color: #999;
+	background: #fff;
+	border: 1px solid #d6d9dc;
+	font-size: 14px;
+	width: 230px;
+	height: 18px;
+	padding: 10px 7px 10px 11px;
+}
+.logtext #logemail:focus, #passw:focus {
+	outline:none;
+	border: 1px solid #11b463;
+}
+.logbutton input {
+	width:250px; 
+	height:40px; 
+	border-radius:3px; 
+	background:#27ae60; 
+	color:#fff; 
+	font-size:16px; 
+	cursor:pointer; 
+	border:none;
+}
+.logbutton1 input {
+	width:150px; 
+	height:40px; 
+	border-radius:3px; 
+	background:#27ae60; 
+	color:#fff; 
+	font-size:16px; 
+	cursor:pointer; 
+	border:none;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+
+}
+.logbutton2 input {
+	width:150px; 
+	height:40px; 
+	border-radius:3px; 
+	background:red; 
+	color:#fff; 
+	font-size:16px; 
+	cursor:pointer; 
+	border:none;
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+.loglink, .loglink a {
+	text-align: right;
+	height:42px;
+	width: 250px;
+	line-height: 42px;
+	color:#676c7b;
+	font-size: 12px;
+	text-decoration:none;
+}
+.loglink a {
+
+}
+
+/* Sadrzaj */
+
+/* FAQ */
+
+/* Footer */
+
+#bottomfooter, footer {
+	height: 38px;
+	text-align: center;
+	line-height:38px;
+	background-color:#1e1e1e;
+	color:#777;
+}
+#bottomfooter a{
+ text-decoration: none;
+ color:#80879B;
+}
+ #links{
+ 	background:#fff; 
+ 	padding:10px 0 10px 0; 
+ 	color:#454545; 
+ 	line-height:25px;
+ 	border-top:1px solid #e0e7f1;
+ }
+ #links ul {
+ 	text-align: center;
+
+ }
+ #links ul li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 55px;
+}
+#links ul li a {
+	color:#676c7b;
+	text-decoration: none;
+	font-size: 14px;
+}
+#links ul li a:hover {
+	color:#27ae60;
+}
+
+
+
+
+
+
+/* Pocetna */
+
+
+#s21{
+
+	width: 750px;
+	float: right;
+	margin-top: 120px;
+}
+
+
+#partneri{
+	padding: 24px 0;
+}
+
+.cleaner {
+	clear: both;
+}
+
+nav ul li{
+	float:left
+
+      }
+
+nav ul li a{
+	color: rgb(14, 23, 102);
+	transition: all 0.3s cubic-bezier(0.68, 0.38, 0.21, 1.01) 0s;
+	font-size: 19px;
+      }
+
+nav ul li a:hover{
+	color: rgb(14, 23, 102);
+	transition: all 0.3s cubic-bezier(0.68, 0.38, 0.21, 1.01) 0s;
+	font-size: 19px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#topNavigation ul li {
+	float: left;
+	margin: 20px 10px;
+}
+
+#topNavigation ul li a {
+	color: rgb(14, 23, 102);
+	transition: all 0.3s cubic-bezier(0.68, 0.38, 0.21, 1.01) 0s;
+	font-size: 19px;
+}
+
+#topNavigation ul li a:hover {
+	color: rgb(246, 58, 172);
+}
+
+header {
+	top: 0px;
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	right: 0px;
+	background-color: white;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06););
+}
+
+#logo {
+	float: left;
+	margin: 15px 20px;
+	margin-left: 40px;
+}
+
+#logo img {
+	height: 40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navButton {
+	margin: 15px 20px;
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 20px;
+	padding: 6px 16px;
+	border-radius: 18px;
+	border: 2px solid rgb(14, 23, 102);
+	float:right
+}
+
+#NasiPartneri {
+	opacity: .5;
+	font-weight: 700;
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-right: 22px;
+	font-family: var(--primary-font);
+	letter-spacing: 1px;  
+}
+
+#div5g {
+	height:600px
+}
+
+#div5gbox {
+	width: 30%; 
+	float: left; 
+	box-shadow: 0 20px 40px rgba(0,0,0,.04);
+}
+
+#div5gtext {
+	width:70%; 
+	float:right	
+}
+
+#ponudaDiv {
+	width: 1300px;     
+	margin: 0px auto;
+}
+
+.ponudaDiv50left{
+	width:50%; 
+	margin : 0; 
+	float : left;
+}
+
+#ponudaDiv50leftd{
+	margin: 100px; 
+	margin-top: 200px;
+}
+
+#ponudaDiv50leftd a{
+	color: red;
+} 
+
+.banerTelefonLeft {
+	width:45%; 
+	margin : 0; 
+	float : left ; 
+	background-color: aqua; 
+	height: 600px;
+}
+
+.banerTelefonRight {
+	width:45%; 
+	margin : 0; 
+	float : right; 
+	background-color: aqua; 
+	height: 600px;
+}
+
+.popust {
+	color: white; 
+	background-color: black; 
+	width: 100%; 
+	line-height: 150%;
+}
+
+.model {
+	height: 100px; 
+	width: 100%; 
+	padding: 20px 0 0 20px;
+}
+
+.cena {
+	width: 160px; 
+	border-top: 1px solid rgba(0,0,0,.1); 
+	margin-left: 20px;
+}
+
+.telefonButton {
+	color: white; 
+	background-color: red; 
+	margin-left: 20px; 
+	height: 40px;
+}
+
+.telefonButton span {
+	padding: 40px 20px 40px 20px; 
+	line-height: 40px; 
+	height: 40px; 
+	margin-top: 25px;
+}
+
+
+
+
+
+/*LJUBICASTI SECTION*/
+
+
+
+
+
+#ljubicastiSection {
+	background-color: blueviolet; 
+	height: 500px; 
+	margin-top: 200px;
+	color: white
+}
+
+.left50purple {
+	width: 49%; 
+	float: left;
+	margin-top: 40px;
+}
+
+.right50purple {
+	float: right;
+	width: 49%;
+	margin-top: 40px;
+
+}
+
+.infoPar {
+	text-align: center; 
+	height: 250px;
+}
+
+#gornjiPar {
+	margin-top: 20px;
+}
+
+.left50purple h3, .right50purple h3 {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+#p2 {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 170%;
+	color: rgb(156, 158, 178)
+}
+
+
+/*PROMO PAKETI*/
+
+
+
+
+
+#promoDiv {
+	margin: 100px auto; 
+	border-top: 1px solid #000;
+}
+
+#promoDiv + div{
+	margin-top: 100px;
+}
+
+#promoDivTextContainer {
+	width:60%; 
+	margin : 0; 
+	float : left ;
+}
+
+#promoDivText {
+	margin:100px; 
+	margin-top: 200px;
+}
+
+#promoDivText a {
+	color: red;
+}
+
+#promoPic {
+	width: 40%; 
+	position: relative;
+}
+
+#promoShopping {
+	width: 100%; 
+	margin: 5px 0px 50px 0px; 
+	float:left; 
+	position:absolute;
+}
+
+.badge {
+	margin-left: -90px; 
+	margin-top: 100px; 
+	width: 200px; 
+	float:left; 
+	position:absolute;
+	/*background-image: url("badge.png");*/
+}
