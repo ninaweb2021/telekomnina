@@ -820,8 +820,18 @@ a {
 	border-radius: 15px;
 }
 
+#filterDiv {
+	box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
 
+#filterDiv h3 {
+	padding-top: 20px;
+	padding-left: 25px;
+}
 
+,filter ul li {
+	color: #585858;
+}
 
 
 /* CUSTOM CHECKBOX */
@@ -833,11 +843,14 @@ a {
 	padding-left: 35px;
 	margin-bottom: 12px;
 	cursor: pointer;
-	font-size: 22px;
+	font-size: 16px;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 30px;
 }
 
 .container input {
@@ -886,6 +899,29 @@ a {
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
+
+
+/* RADIO B */
+
+.checkmark1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+	border-radius: 50%;
+}
+
+.container1 .checkmark:after {
+	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+      }
+
 
 /* PROIZVODI STORE */
 
