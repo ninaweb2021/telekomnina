@@ -61,6 +61,14 @@ body {
 }
 #greendiv span {color:yellow;}
 
+#greendiv a {
+	color: white;
+	border: white 2px solid;
+	border-radius: 15px;
+	padding: 10px 20px 10px 20px;
+	margin: 15px 0px 0px 30px;
+}
+
 #center {
 	background-image: -webkit-radial-gradient(71% 51%,circle,#5ce1ff,#388dff 57%);
     	background-position: 50% 50%;
@@ -73,7 +81,10 @@ body {
 	margin-top: 88px;
 	float: left;
 }
-.clear {clear: both;}
+
+.clear {
+	clear: both;
+}
 
 /* Gallery */
 
@@ -97,6 +108,7 @@ a.block:link, a.block:visited {
     margin: 10px;
     background-color: transparent;
 }
+
 #images a {
  transition: all .2s ease-in-out; }
 
@@ -341,24 +353,34 @@ a {
 .currentPage {
 	padding: 2px 4px 2px px;
 	border-bottom: #388dff 4px solid;
-	padding-bottom: 25px;	
+	padding-bottom: 23px;	
 }
 
 
 
 .navButton {
 	margin: 20px 20px;
-	font-size: 19px;
-	font-weight: 700;
-	line-height: 20px;
-	padding: 6px 16px;
+	padding: 5px 10px;
 	border-radius: 18px;
-	border: 2px solid black;
 	float:right;
+
+
+	font-size: 19px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 450;
+	text-transform: uppercase;
 }
 
 .navButton a {
 	color:black;
+	font-size: 19px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 450;
+	text-transform: uppercase;
+}
+
+.navButton img {
+	width: 16px;
 }
 
 #NasiPartneri {
@@ -537,10 +559,19 @@ a {
 
 
 .telefonButton {
-	color: white; 
-	background-color: red; 
+	color: black; 
+	background-color: #c4c4c4; 
 	margin-left: 20px; 
 	height: 40px;
+	border-radius: 15px;
+	padding: 7px;
+	transition: 0.4s;
+}
+
+.telefonButton:hover {
+	background-color: #a09f9f;
+	transform: scale(1.05);
+
 }
 
 .telefonButton span {
@@ -638,6 +669,11 @@ a {
 	border: 3px white solid;
 	border-radius: 50%;
 	padding: 2px;
+	background-color: #cdbfd9;
+}
+
+.infoPar p {
+	line-height: 2;
 }
 
 #gornjiPar {
@@ -657,6 +693,7 @@ a {
 	line-height: 170%;
 	color: rgb(156, 158, 178)
 }
+
 
 
 /*PROMO PAKETI*/
