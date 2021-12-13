@@ -910,6 +910,89 @@ a {
 
 /* PROIZVODI */
 
+/* PAKETI */
+
+
+#paketiDiv {
+	width: 100%; 
+	height: 300px; 
+	background-color: blueviolet;
+}
+
+#paketStart {
+	height:150px; 
+	width: 300px; 
+	background-color: white; 
+	border-radius:15px; 
+	float: left; 
+	margin-top: 110px;
+}
+
+.sviPaketi h5 {
+	float: left;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.sviPaketi h4 {
+	float: right;
+	padding-left: 0px;
+	padding-top: 20px;
+	padding-right: 20px;
+	border-right-style: solid;
+	border-right-width: 0px;
+}
+
+.sviPaketi ul {
+	margin-top: 100px;
+}
+
+.internetGB {
+	padding-left: 20px;
+}
+
+.minutisms {
+	padding-left: 20px;
+	padding-bottom: 0px;
+}
+
+.staraCena {
+	display: block; 
+	text-decoration: line-through; 
+	font-size: 16px; 
+	float: right;
+}
+
+.novaCena {
+	display: block; 
+	font-size: 22px;
+}
+
+#topPaket {
+	height:150px; 
+	width: 300px; 
+	background-color: white; 
+	border-radius:15px; 
+	float: left; 
+	margin-top: 110px; 
+	margin-left: 200px;
+}
+
+#unlimitedPaket {
+	height:150px; 
+	width: 300px; 
+	background-color: white; 
+	border-radius:15px; 
+	float: right; 
+	margin-top: 110px;
+}
+
+
+
+
+
+
+
 /* FILTERI */
 
 
@@ -1090,6 +1173,10 @@ a {
 
 
 /* PROIZVODI STORE */
+
+#punaPonuda {
+	height: 2000px;
+}
 
 .phones3 {
 	width: 72%;
