@@ -107,33 +107,68 @@ body {
 
 /* Gallery */
 
-#images {
-	width: 750px;
-	margin: 15px auto;
-	border: 1px solid #E0E7F1;
-padding: 30px 5px;
+#galerija {
+	padding: 0px 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.slika {
+	width: 400px;
+	height: 400px;
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+.slika img {
+	width: 350px;
+	height: 350px;
+	border-radius: 5px;
+	object-fit: cover;
+	filter: saturate(0%);
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+	transition: width 0.2s, height 0.2s, filter 0.5s;
+}
+.slika a:hover img {
+	width: 400px;
+	height: 400px; 
+	filter: saturate(100%);
+}
+.slika a:hover .ocena {
+	display: flex;
 }
 
-#images a img{
-	border: 0;
+.ocena {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 4px;
+	width: 100%;
+	height: 35px;
+	border-radius: 0px 0px 5px 5px;
+	animation: oceni 1s;
+	background: rgba(30,30,30,0.2);
+	backdrop-filter: blur(2px);
+	color: #fff;
 }
-
-#gallery {
-	text-align: center;
+.ocena span{
+	color: #ba0000;
+	margin: 5px;
 }
-a.block:link, a.block:visited {
-	display: inline-block;
-	width: 200px;
-	height: 200px;
-	border: 2px solid #11b463;
-	margin: 10px;
-	background-color: transparent;
+.ocena span:hover{
+	transform: scale(1.3,1.3);
 }
-
-#images a {
-	transition: all .2s ease-in-out; }
-
-#images a:hover { transform: scale(1.1); }
+@keyframes oceni {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
 /* Login */
 #center .logspace {
