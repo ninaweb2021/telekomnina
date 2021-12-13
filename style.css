@@ -127,7 +127,7 @@ body {
 .slika img {
 	width: 350px;
 	height: 350px;
-	border-radius: 5px;
+	border-radius: 15px;
 	object-fit: cover;
 	filter: saturate(0%);
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
@@ -926,6 +926,10 @@ a {
 	border-radius:15px; 
 	float: left; 
 	margin-top: 110px;
+}
+
+.sviPaketi {
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 7px 7px;
 }
 
 .sviPaketi h5 {
