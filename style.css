@@ -108,6 +108,8 @@ body {
 /* Gallery */
 
 #galerija {
+	margin-top: 150px;
+	margin-bottom: 50px;
 	padding: 0px 20px;
 	display: flex;
 	flex-direction: row;
