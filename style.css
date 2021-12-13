@@ -341,7 +341,7 @@ footer button {
 
 #s21{
 
-	width: 750px;
+	width: 780px;
 	float: right;
 	margin-top: 25vh;
 	transition: 0.6s;
@@ -565,7 +565,6 @@ a {
 	
 .banerTelefonLeft:hover { 	
 	background-color: #d4e6f8; 	
-	/*transform: scale(1.05);*/
 }
 
 .banerTelefonRight {
@@ -1096,27 +1095,38 @@ a {
 	justify-content:space-around;
 	align-items:flex-start;
 }
+
 #info {
 	width:35%;
 	padding:25px 25px;
 	height:320px;
 	border-radius: 15px;
 	box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+	transition: 0.8s; }  
+	
+#info:hover { 	
+	background-color: #f2f5f8; 	
 }
+
+
 #info h3{
 	text-align:center;
-	margin:15px 0px;
+	margin:35px 0px;
 }
+
 #info p{
 	margin:15px 0px;
 	font-size:14px;
 }
+
 .info {
 	text-align:center;
 }
+
 .info span {
 	font-size:12px;
 }
+
 #kontaktForma {
 	width:55%;
 	padding:2px 0px 35px;
@@ -1126,8 +1136,12 @@ a {
 	align-items:center;
 	box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
 	border-radius: 15px;
-
+	transition: 0.8s; }  
+	
+#kontaktForma:hover { 	
+	background-color: #f2f5f8; 	
 }
+
 textarea{
 	width:100%;
 	background:#eee;
@@ -1137,30 +1151,41 @@ textarea{
 	padding-left:5px;
 	border-radius: 5px;
 }
+
 #kontaktForma form {
 	display:inline-block;
 }
+
 #kontaktForma td {
 	width:300px;
 }
+
 #kontaktForma th {
 	padding:25px 0px;
 }
+
 #kontaktForma input[type="submit"] {
 	color:black;
 	background:#eee;
 	padding:5px 25px;
 	border:1px solid #333;
 	width:100%;	
+	border-radius: 5px;
+	transition: 0.8s;
 }
+
 #kontaktForma input[type="submit"]:hover {
 	background:#2196F3;
 	transition:background .3s;
 	filter:grayscale(0.3);
+	border: #2196F3 solid 1px;
+
 }
+
 .submit:hover {
 	background:#2196F3;
 }
+
 #kontaktForma input[type="text"] {
 	color:black;
 	background:#eee;
@@ -1168,8 +1193,8 @@ textarea{
 	border:none;
 	width:100%;
 	border-radius: 5px;
-
 }
+
 #kontaktForma input[type="email"] {
 	color:black;
 	background:#eee;
@@ -1177,8 +1202,8 @@ textarea{
 	border:none;
 	width:100%;
 	border-radius: 5px;
-
 }
+
 #mapa iframe {
 	width:100%;
 	height:300px;
