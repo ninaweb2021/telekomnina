@@ -111,7 +111,7 @@ body {
 	color: white;
 	font-size: 48px;
 	margin: 11px 30px 11px 30px;
-	margin-top: 25vh;
+	margin-top: 18vh;
 }
 
 #greendiv span {color:yellow;}
@@ -131,7 +131,7 @@ body {
 #greendiv a:hover { 	
 	background-color: white; 	
 	transform: scale(1.05);
-	color:#388dff;
+	color:#576c77;
 	font-weight: 700;
 }
 
@@ -140,7 +140,7 @@ body {
 }
 
 #center {
-	background-image: -webkit-radial-gradient(71% 51%,circle,#5ce1ff,#388dff 57%);
+	background-image: -webkit-radial-gradient(51% 91%,circle,#6e8f96,#414b59 97%);	
 	background-position: 50% 50%;
 	height: 90vh;}
 
@@ -378,6 +378,9 @@ ul {
 }
 
 #topNavigation ul li a {
+	display: inline-block;
+	text-align: center;
+	width: 100px;
 	color: black;
 	transition: all 0.3s cubic-bezier(0.68, 0.38, 0.21, 1.01) 0s;
 	font-size: 19px;
@@ -387,8 +390,10 @@ ul {
 }
 
 #topNavigation ul li a:hover {
-	color: rgb(246, 58, 172);
+	color: #dfe1e1;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background-color: #576c77;
+	border-radius: 5px;
 }
 
 header {
@@ -724,7 +729,8 @@ a {
 
 
 #ljubicastiSection {
-	background-color: #98929d; 
+	background-color: #4c595b;
+	height; 
 	height: 500px; 
 	margin-top: 100px;
 	color: white
@@ -753,7 +759,7 @@ a {
 	border: 3px white solid;
 	border-radius: 50%;
 	padding: 2px;
-	background-color: #cdbfd9;
+	background-color: #c3c5c6;
 	height: 60px;width: 60px;
 	line-height: 1.75;
 	font-size: 35px;
@@ -870,8 +876,7 @@ a {
 #paketiDiv {
 	width: 100%; 
 	height: 300px; 
-	background-color: #7787a6;
-}
+	background-image: -webkit-radial-gradient(51% 91%,circle,#6e8f96,#414b59 97%);}
 
 #paketStart {
 	height:150px; 
@@ -1385,3 +1390,22 @@ input:focus {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#something { display:none;}
+#something:target {display:block}
+#somethingD:target {display:none}
