@@ -576,7 +576,11 @@ a {
 	height: 100px;
 	line-height: 45px;
 	text-align: center;
+}
 
+#NasiPartneri img {
+	height: 40px;
+	width: 40px;
 }
 
 #NasiPartneri p {
