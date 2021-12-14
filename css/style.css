@@ -1,0 +1,1476 @@
+#sidebar {float: :right; position: fixed; right: 15px; bottom: 100px; z-index: 10;}
+#sidebar li {list-style: none; }
+#sidebar li img {height: 48px;}
+
+
+
+
+
+
+*{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+*{
+	margin:0;
+	padding:0;
+}
+
+html {
+	scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	background: #f7f8f9;
+}
+
+.wrapper {
+	width: 1300px;
+	height:188px;
+	margin: 0px auto;
+	clear: both;
+	height: auto;
+
+}
+
+.wrapperNarrow {
+	width: 350px;
+	height:188px;
+	margin: 0px auto;
+	clear: both;
+	height: auto;
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+/* Author */
+ 
+#autor {
+	padding: 0px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#autorWrapper {
+	margin-top: 100px;
+	height: 800px;
+}
+
+#autor figure {
+	width: 400px;
+	background-color: #fff;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+	border-radius: 15px;
+	margin: 40px;
+}
+#autor figcaption {
+	text-align: center;
+	padding-bottom: 5px;
+}
+#autor img {
+	width: 400px;
+	border-radius: 5px 5px 0px 0px;
+}
+#atekst {
+	width: 500px;
+}
+#atekst h2{
+	margin-top: 30px;
+}
+#atekst p {
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Center */
+
+
+#greendiv {
+	float:left; 
+	margin-top:150px;
+	padding-right: 2px;
+	height: 136px;
+	width: 500px;
+	display: inline;
+}
+
+#greendiv h1 {
+	color: white;
+	font-size: 48px;
+	margin: 11px 30px 11px 30px;
+	margin-top: 25vh;
+}
+
+#greendiv span {color:yellow;}
+
+#greendiv a {
+	color: white;
+	border: white 2px solid;
+	border-radius: 15px;
+	padding: 10px 20px 10px 20px;
+	margin: 25px 0px 0px 30px;
+	position: absolute;
+	transition: 1s; 
+	font-weight: 700;
+
+}  
+
+#greendiv a:hover { 	
+	background-color: white; 	
+	transform: scale(1.05);
+	color:#388dff;
+	font-weight: 700;
+}
+
+#greendiv i {
+	font-style: normal;
+}
+
+#center {
+	background-image: -webkit-radial-gradient(71% 51%,circle,#5ce1ff,#388dff 57%);
+	background-position: 50% 50%;
+	height: 90vh;}
+
+#welcome {
+	width: 600px;
+	height: 140px;
+	background-color: #00c96a;
+	margin-top: 88px;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Gallery */
+
+#galerija {
+	margin-top: 150px;
+	margin-bottom: 50px;
+	padding: 0px 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.slika {
+	width: 400px;
+	height: 400px;
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+.slika img {
+	width: 350px;
+	height: 350px;
+	border-radius: 15px;
+	object-fit: cover;
+	filter: saturate(0%);
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+	transition: width 0.6s, height 0.6s, filter 0.6s;
+}
+.slika a:hover img {
+	width: 400px;
+	height: 400px; 
+	filter: saturate(100%);
+}
+.slika a:hover .opisGalerija {
+	display: flex;
+}
+
+.opisGalerija {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 4px;
+	width: 100%;
+	height: 35px;
+	border-radius: 0px 0px 5px 5px;
+	animation: opis 2.5s;
+	background: rgba(30,30,30,0.2);
+	backdrop-filter: blur(2px);
+	color: #fff;
+}
+.opisGalerija span{
+	color: #ba0000;
+	margin: 5px;
+}
+.opisGalerija span:hover{
+	transform: scale(1.3,1.3);
+}
+@keyframes opis {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/* Login */
+#center .logspace {
+	width:290px;
+	height: 310px;
+	border-radius: 3px;
+
+	-moz-border-right-radius: 3px;
+	-webkit-border-right-radius: 3px;
+	border-right-radius: 3px;
+	-moz-border-left-radius: 3px;
+	-webkit-border-left-radius: 3px;
+	border-left-radius: 3px;
+
+	background: #f7f8fa;
+	float: right;
+	margin-top: 35px;
+	margin-right: 25px;
+	padding: 20px 0px 0px 30px;
+	color: #3e434a;
+
+}
+.logbox {
+	height: 308px;
+	width: 286px;
+}
+.logtitle {
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	margin-bottom: 19px;
+}
+.logtext {
+	width: 250px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.logtext #logemail, #passw {
+	color: #999;
+	background: #fff;
+	border: 1px solid #d6d9dc;
+	font-size: 14px;
+	width: 230px;
+	height: 18px;
+	padding: 10px 7px 10px 11px;
+}
+.logtext #logemail:focus, #passw:focus {
+	outline:none;
+	border: 1px solid #11b463;
+}
+.logbutton input {
+	width:250px; 
+	height:40px; 
+	border-radius:3px; 
+	background:#27ae60; 
+	color:#fff; 
+	font-size:16px; 
+	cursor:pointer; 
+	border:none;
+}
+.logbutton1 input {
+	width:150px; 
+	height:40px; 
+	border-radius:3px; 
+	background:#27ae60; 
+	color:#fff; 
+	font-size:16px; 
+	cursor:pointer; 
+	border:none;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+
+}
+.logbutton2 input {
+	width:150px; 
+	height:40px; 
+	border-radius:3px; 
+	background:red; 
+	color:#fff; 
+	font-size:16px; 
+	cursor:pointer; 
+	border:none;
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+.loglink, .loglink a {
+	text-align: right;
+	height:42px;
+	width: 250px;
+	line-height: 42px;
+	color:#676c7b;
+	font-size: 12px;
+	text-decoration:none;
+}
+.loglink a {
+
+}
+
+/* Sadrzaj */
+
+/* FAQ */
+
+/* Footer */
+
+footer {
+	height: 220px;
+	text-align: center;
+	line-height:38px;
+	background-color:#1e1e1e;
+	color:#777;
+}
+
+footer article {
+	width: 33%;
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+footer article a {
+	font-size: 18px;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 1px solid #292929;
+	border-radius: 50%;
+	color: #fff
+}
+
+footer article a i{
+	margin-top: 15px;
+}
+
+
+
+footer li {
+	display: inline-block;
+	margin-right: 15px;
+	overflow: hidden;
+    }
+
+footer input[type="email"] {
+	padding: 7px;
+	border-radius: 5px;
+	border: none;
+}
+
+footer button {
+	width: 30px;
+	background: #333;
+	color: #fff;
+	border: none;
+	padding:10px;
+	border-radius: 5px;
+}
+
+.loc {
+	margin-right: 10px;
+}
+
+#rss a{
+	transition: 0.6s;
+}
+
+#rss:hover a {
+	background-color: #f26522;
+	border: 1px solid #f26522;
+}
+
+#sitemp a{
+	transition: 0.6s;
+}
+
+#sitemp:hover a {
+	background-color: #e1306c;
+	border: 1px solid #e1306c;
+}
+
+#fb a{
+	transition: 0.6s;
+}
+
+#fb:hover a {
+	background-color: #4267b2;
+	border: 1px solid #4267b2;
+}
+
+#tw a{
+	transition: 0.6s;
+}
+
+#tw:hover a {
+	background-color: #1da1f2;
+	border: 1px solid #1da1f2;
+}
+
+
+
+/* Pocetna */
+
+
+#s21{
+
+	width: 780px;
+	float: right;
+	margin-top: 25vh;
+	transition: 0.6s;
+}
+
+#s21:hover {
+	transform: scale(1.02);
+}
+
+
+#partneri{
+	padding: 24px 0;
+}
+
+.cleaner {
+	clear: both;
+}
+
+nav ul li{
+	float:left
+
+}
+
+nav ul li a{
+	color: black;
+	transition: all 0.3s cubic-bezier(0.68, 0.38, 0.21, 1.01) 0s;
+	font-size: 19px;
+}
+
+nav ul li a:hover{
+	color: rgb(14, 23, 102);
+	transition: all 0.3s cubic-bezier(0.68, 0.38, 0.21, 1.01) 0s;
+	font-size: 19px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#topNavigation ul li {
+	float: left;
+	margin: 25px 15px;
+	margin-bottom: 0px;
+	height: 23px;
+}
+
+#topNavigation ul li a {
+	color: black;
+	transition: all 0.3s cubic-bezier(0.68, 0.38, 0.21, 1.01) 0s;
+	font-size: 19px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 450;
+
+}
+
+#topNavigation ul li a:hover {
+	color: rgb(246, 58, 172);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+	top: 0px;
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	right: 0px;
+	background-color: white;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06););
+	z-index: 1;
+}
+
+#logo {
+	float: left;
+	margin: 15px 20px;
+	margin-left: 40px;
+}
+
+#logo img {
+	height: 40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.currentPage {
+	padding: 2px 4px 2px px;
+	border-bottom: #388dff 4px solid;
+	padding-bottom: 23px;	
+}
+
+
+
+.navButton {
+	margin: 20px 20px;
+	padding: 5px 10px;
+	border-radius: 18px;
+	float:right;
+
+
+	font-size: 19px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 450;
+	text-transform: uppercase;
+}
+
+.navButton a {
+	color:black;
+	font-size: 19px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 450;
+	text-transform: uppercase;
+}
+
+.navButton img {
+	width: 16px;
+}
+
+#NasiPartneri {
+	font-weight: 700;
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-right: 22px;
+	font-family: var(--primary-font);
+	letter-spacing: 1px; 
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+	color:rgb(128, 128, 128)
+	height: 100px;
+	line-height: 45px;
+	text-align: center;
+
+}
+
+#NasiPartneri p {
+	float: left;
+	text-align: center;
+}
+
+#div5g {
+	height:380px
+}
+
+#div5gbox {
+	width: 30%; 
+	float: left; 
+	box-shadow: 0 20px 40px rgba(0,0,0,.04);
+	transition: 0.5s;
+	border-radius: 15px;
+
+}
+
+#div5gbox img {
+	max-width: 100%;
+	height: auto;
+}
+
+#div5gbox:hover {
+	transform: scale(1.1);
+}
+
+#div5gtext {
+	width:70%; 
+	float:right	
+}
+
+#small5g {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#small5g h2 {
+	font-size: 50px;
+	line-height: 1.25;
+	weight: 400;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#small5g p {
+	font-size: 20px;
+	line-height: 1.25;
+	weight: 400;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	text-align:initial
+}
+
+
+
+/* PONUDA */
+
+
+
+#ponudaDiv {
+	width: 1300px;     
+	margin: 0px auto;
+}
+
+.ponudaDiv50left{
+	width:50%; 
+	margin : 0; 
+	float : left;
+}
+
+#ponudaDiv50leftd{
+	margin: 100px; 
+	margin-top: 200px;
+}
+
+#ponudaDiv50leftd a{
+	color: red;
+} 
+
+.banerTelefonLeft {
+	width:45%; 
+	margin : 0; 
+	float : left ; 
+	background-color: #e6e6e6; 
+	height: 600px;
+	border-radius: 15px;
+	transition: 0.8s; }  
+	
+.banerTelefonLeft:hover { 	
+	background-color: #d4e6f8; 	
+}
+
+.banerTelefonRight {
+	width:45%; 
+	margin : 0; 
+	float : right; 
+	background-color: #e6e6e6; 
+	height: 600px;
+	border-radius: 15px;
+	transition: 0.8s; }  
+	
+.banerTelefonRight:hover { 	
+	background-color: #d4e6f8; 	
+	/*transform: scale(1.05);*/
+}
+.popust {
+	color: white; 
+	background-color: #388dff; 
+	width: 100%; 
+	line-height: 150%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 32px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+
+}
+
+.outofstock {
+	color: white; 
+	background-color: red; 
+	width: 100%; 
+	line-height: 150%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 32px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+
+}
+
+.model {
+	height: 100px; 
+	width: 100%; 
+	padding: 20px 0 0 20px;
+	color:rgb(128, 128, 128);
+	font-size: 16;
+	font-weight: 400;
+	line-height: 1.5;
+	
+}
+
+.cena {
+	width: 86%; 
+	border-top: 1px solid rgba(0,0,0,.1); 
+	margin-left: auto;
+	margin-right: auto;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	padding-top: 15px;
+	
+}
+
+
+
+.precrtano {
+	font-size: 15px;
+	line-height: 1.5;
+	font-weight: 400;
+	color: rgb(128, 128, 128);
+	text-decoration: line-through;
+}
+
+.bigCena {
+	font-size: 24px;
+	line-height: 1.5;
+	font-weight: bold;
+
+}
+
+.paket {
+	font-style: normal;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.telefonButton {
+	color: black; 
+	background-color: #c4c4c4; 
+	margin-left: 20px; 
+	height: 40px;
+	border-radius: 15px;
+	padding: 7px;
+	transition: 0.4s;
+}
+
+.telefonButton:hover {
+	background-color: #a09f9f;
+	transform: scale(1.05);
+
+}
+
+.telefonButton span {
+	padding: 40px 20px 40px 20px; 
+	line-height: 40px; 
+	height: 40px; 
+	margin-top: 25px;
+}
+
+#ponudaDiv50leftd h3 {
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+	color: rgb(187, 187, 187)
+	font-weight: bold;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#ponudaDiv50leftd h2 {
+	font-size: 60px;
+	line-height: 1.25;
+	font-weight: 700;
+	font-weight: bold;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#ponudaDiv50leftd p {
+	font-size: 18px;
+	line-height: 1.25;
+	font-weight: 400;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+
+.model p {
+	color:black;
+	font-size: 22;
+	font-weight: 600;
+	line-height: 1.5;
+	font
+}
+
+
+.mobimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: 0.7s;
+}
+
+.mobimg:hover {
+	transform: scale(1.05);
+}
+
+
+
+
+/*LJUBICASTI SECTION*/
+
+
+
+
+
+#ljubicastiSection {
+	background-color: blueviolet; 
+	height: 500px; 
+	margin-top: 100px;
+	color: white
+}
+
+.left50purple {
+	width: 49%; 
+	float: left;
+	margin-top: 40px;
+}
+
+.right50purple {
+	float: right;
+	width: 49%;
+	margin-top: 40px;
+
+}
+
+.infoPar {
+	text-align: center; 
+	height: 250px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.infoPar img {
+	border: 3px white solid;
+	border-radius: 50%;
+	padding: 2px;
+	background-color: #cdbfd9;
+}
+
+.infoPar p {
+	line-height: 2;
+}
+
+#gornjiPar {
+	margin-top: 20px;
+}
+
+.left50purple h3, .right50purple h3 {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+#p2 {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 170%;
+	color: rgb(156, 158, 178)
+}
+
+
+
+/*PROMO PAKETI*/
+
+
+
+
+
+#promoDiv {
+	margin: 100px auto; 
+}
+
+#promoDiv + div{
+	margin-top: 100px;
+}
+
+#promoDivTextContainer {
+	width:60%; 
+	margin : 0; 
+	float : left ;
+}
+
+#promoDivText {
+	margin:100px; 
+	margin-top: 150px;
+}
+
+#promoDivText a {
+	color: red;
+}
+
+#promoPic {
+	width: 40%; 
+	position: relative;
+}
+
+#promoShopping {
+	width: 100%; 
+	margin: 5px 0px 50px 0px; 
+	float:left; 
+	position:absolute;
+	border-radius: 15px;
+}
+
+.badge {
+	margin-left: -90px; 
+	margin-top: 100px; 
+	width: 200px; 
+	float:left; 
+	position:absolute;
+	transition: 0.5s;
+}
+
+.badge:hover {
+	transform: scale(1.1);
+}
+
+
+#promoDivText h2 {
+	font-size: 40px;
+	line-height: 1.25;
+	font-weight: 700;
+	font-weight: bold;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#promoDivText h4 {
+	margin-top: 5px;
+	margin-bottom: 2px;
+	font-size: 17px;
+	line-height: 1.5;
+	font-weight: 400;
+	color: rgb(187, 187, 187)
+	font-weight: bold;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+/* PROIZVODI */
+
+/* PAKETI */
+
+
+#paketiDiv {
+	width: 100%; 
+	height: 300px; 
+	background-color: blueviolet;
+}
+
+#paketStart {
+	height:150px; 
+	width: 300px; 
+	background-color: white; 
+	border-radius:15px; 
+	float: left; 
+	margin-top: 110px;
+}
+
+.sviPaketi {
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 7px 7px;
+}
+
+.sviPaketi h5 {
+	float: left;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.sviPaketi h4 {
+	float: right;
+	padding-left: 0px;
+	padding-top: 20px;
+	padding-right: 20px;
+	border-right-style: solid;
+	border-right-width: 0px;
+}
+
+.sviPaketi ul {
+	margin-top: 100px;
+}
+
+.internetGB {
+	padding-left: 20px;
+}
+
+.minutisms {
+	padding-left: 20px;
+	padding-bottom: 0px;
+}
+
+.staraCena {
+	display: block; 
+	text-decoration: line-through; 
+	font-size: 16px; 
+	float: right;
+}
+
+.novaCena {
+	display: block; 
+	font-size: 22px;
+}
+
+#topPaket {
+	height:150px; 
+	width: 300px; 
+	background-color: white; 
+	border-radius:15px; 
+	float: left; 
+	margin-top: 110px; 
+	margin-left: 200px;
+}
+
+#unlimitedPaket {
+	height:150px; 
+	width: 300px; 
+	background-color: white; 
+	border-radius:15px; 
+	float: right; 
+	margin-top: 110px;
+}
+
+
+
+
+
+
+
+/* FILTERI */
+
+
+#filterWrapper {
+	width: 300px;
+	float: left;
+	margin-top: 50px;
+}
+
+
+
+#radioband {
+	margin-bottom: 30px;
+}
+
+.leftUl {
+	float:left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+
+.rightUl {
+	float:right;
+	margin-right: 30px;
+	margin-top: 30px;
+
+}
+
+#filterDiv {
+	box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+	height: 250px;
+	border-radius: 15px;
+	box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+	transition: 0.8s; 
+	margin-bottom: 30px;
+}  
+	
+#filterDiv:hover { 	
+	background-color: #f2f5f8; 	
+	/*transform: scale(1.05);*/
+}
+
+#filterDiv h3 {
+	padding-top: 20px;
+	padding-left: 25px;
+}
+
+,filter ul li {
+	color: #585858;
+}
+
+
+/* CUSTOM CHECKBOX */
+
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+	background-color: #2196F3;
+}
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+	display: block;
+}
+
+.container .checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+
+/* RADIO B */
+
+
+.container1 {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 18px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin-left: 30px;
+}
+
+.container1 input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.checkmark1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+	border-radius: 50%;
+}
+
+.container1:hover input ~ .checkmark1 {
+	background-color: #ccc;
+}
+
+.container1 input:checked ~ .checkmark1 {
+	background-color: #2196F3;
+}
+
+.checkmark1:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.container1 input:checked ~ .checkmark1:after {
+	display: block;
+}
+
+.container1 .checkmark1:after {
+	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+
+
+/* PROIZVODI STORE */
+
+#punaPonuda {
+	height: 2000px;
+}
+
+.phones3 {
+	width: 72%;
+	margin : 0; 
+	float : right;
+	margin-bottom: 40px;
+}
+
+.phones3in1 {
+	width:32%; 
+	margin : 0; 
+	float : left ; 
+	background-color: #e6e6e6; 
+	height: 600px;
+	border-radius: 15px;
+}
+
+.left3phone {
+	margin-left: 18px;
+}
+
+.productsWrapper {
+	margin-top: 0px;
+}
+
+#firstRowM {
+	margin-top: 50px;
+}
+
+
+
+
+
+/* KONTAKT */
+
+#pomocWrapper {
+	padding-top: 100px;
+}
+
+#pomocWrapper h6 {
+	padding-top: 80px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+}
+
+#pomocWrapper form {
+	text-align: center;
+	padding-top: 10px;
+}
+
+#pomocWrapper input {
+	height: 90px;
+	padding: 0 80px 0 30px;
+	border-radius: 10px;
+	box-shadow: 0 20px 40px rgba(0,0,0,.29);
+	border: none;
+	font-size: 25px;
+	padding-left: 50px;
+	padding-right: 100px;
+}
+
+#kontakt {
+	margin-top: 100px;
+	padding:50px 50px;
+	display:flex;
+	justify-content:space-around;
+	align-items:flex-start;
+}
+
+#info {
+	width:35%;
+	padding:25px 25px;
+	height:320px;
+	border-radius: 15px;
+	box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+	transition: 0.8s; }  
+	
+#info:hover { 	
+	background-color: #f2f5f8; 	
+}
+
+
+#info h3{
+	text-align:center;
+	margin:5px 0px 10px;
+}
+
+#info p{
+	margin:15px 0px;
+	font-size:14px;
+}
+
+.info {
+	text-align:center;
+}
+
+.info span {
+	font-size:12px;
+}
+
+#kontaktForma {
+	width:55%;
+	padding:2px 0px 35px;
+	display:flex;
+	height: 332px;
+	justify-content:center;
+	align-items:center;
+	box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+	border-radius: 15px;
+	transition: 0.8s; }  
+	
+#kontaktForma:hover { 	
+	background-color: #f2f5f8; 	
+}
+
+textarea{
+	width:290px;
+	background:#eee;
+	color:black;
+	border:none;
+	height:80px;
+	padding:10px 0 10px  10px;
+	border-radius: 5px;
+}
+
+#kontaktForma form {
+	display:inline-block;
+}
+
+#kontaktForma td {
+	width:300px;
+	font-size: 20px;
+}
+
+#kontaktForma th {
+	padding:25px 0px;
+	font-size: 20px;
+}
+
+#kontaktForma input[type="submit"] {
+	color:black;
+	background:#eee;
+	padding:10px 0 10px 0;
+	border:1px solid #333;
+	width:100%;	
+	border-radius: 5px;
+	transition: 0.8s;
+}
+
+#kontaktForma input[type="submit"]:hover {
+	background:#2196F3;
+	transition:background .3s;
+	filter:grayscale(0.3);
+	border: #2196F3 solid 1px;
+
+}
+
+.submit:hover {
+	background:#2196F3;
+}
+
+#kontaktForma input[type="text"] {
+	color:black;
+	background:#eee;
+	padding:10px 0 10px 10px;
+	border:none;
+	width:290px;
+	border-radius: 5px;
+}
+
+#kontaktForma input[type="email"] {
+	color:black;
+	background:#eee;
+	padding:10px 0 10px 10px;
+	border:none;
+	width:290px;
+	border-radius: 5px;
+}
+
+#searchPomoc {
+	background-image: url("../img/pomoc.jpg");
+	height: 565px;
+	margin-top: 50px;
+}
+
+#lupa {
+	margin-left: -50px; 
+	color: black;
+	font-size: 25px;
+}
+
+#buttonFast {
+	width:fit-content;
+	height:100px;
+	margin: 0px auto;
+	clear: both;
+	height: auto;
+	border-radius: 60px;
+	border: 2px solid #fff;
+	padding: 9px 45px 9px 45px;
+	margin-top: 55px;
+}
+
+#buttonFast a {
+	color: #fff;
+}
+
+#mapa iframe {
+	width:100%;
+	height:300px;
+	filter:brightness(0.8);
+	display:block;
+	border:0;
+}
+
+
+
+
+
+
+
+
+
+
