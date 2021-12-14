@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>  
+		<title>Nove promocije</title>
+		<link>https://ninaweb2021.github.io/telekomnina/</link>
+		<description>Najnoviji sezonski popusti za sve korisnike.</description>
+			<item>
+				<title>Izmena paketa</title>
+				<link>https://ninaweb2021.github.io/telekomnina/</link>
+				<description>Informacije o promeni uslova za postpaid korisnike</description>
+			</item>
+			<item>
+				<title>Nova serija Samsung telefona</title>
+				<link>https://ninaweb2021.github.io/telekomnina/</link>
+				<description>Ponuda ovogodišnjih modela iz Galaxy serije.</description>
+			</item>
+	</channel>
+</rss>
+
