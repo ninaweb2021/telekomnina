@@ -560,7 +560,7 @@ a {
 	transition: 0.8s; }  
 	
 .banerTelefonLeft:hover { 	
-	background-color: #d4e6f8; 	
+	background-color: #e3f0f4; 	
 }
 
 .banerTelefonRight {
@@ -573,7 +573,7 @@ a {
 	transition: 0.8s; }  
 	
 .banerTelefonRight:hover { 	
-	background-color: #d4e6f8; 	
+	background-color: #e3f0f4; 	
 	/*transform: scale(1.05);*/
 }
 .popust {
@@ -1384,28 +1384,3 @@ input:focus {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#something { display:none;}
-#something:target {display:block}
-#somethingD:target {display:none}
