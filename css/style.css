@@ -877,7 +877,7 @@ a {
 	padding: 2px;
 	background-color: #cdbfd9;
 	height: 60px;width: 60px;
-	line-height: 1.8;
+	line-height: 1.75;
 	font-size: 35px;
 	color: black;
 }
@@ -1255,7 +1255,7 @@ a {
 /* PROIZVODI STORE */
 
 #punaPonuda {
-	height: 2000px;
+	height: 2030px;
 }
 
 .phones3 {
@@ -1286,8 +1286,28 @@ a {
 	margin-top: 50px;
 }
 
+.stranice {
+	margin-top: 30px;
+	width: 100%;
+	text-align: center;
+}
 
+.straniceButton {
+	background-color: #e6e6e6;
+	padding: 10px;
+	border-radius: 5px;
+	color: black;
+	transition: 0.4s;
+}
 
+.stranice a:hover {
+	background-color: #c4c4c4;
+	transform: scale(1.05);
+}
+
+.currentStrana {
+	background-color: #a09f9f;
+}
 
 
 /* KONTAKT */
@@ -1446,7 +1466,7 @@ textarea{
 
 input:focus {
 	outline:none;
-    }
+}
 
 #lupa {
 	margin-left: -50px; 
