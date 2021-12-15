@@ -877,6 +877,7 @@ a {
 	width: 100%; 
 	height: 300px; 
 	background-image: -webkit-radial-gradient(51% 91%,circle,#acccd3,#6f8fba 97%);
+}
 
 #paketStart {
 	height:150px; 
